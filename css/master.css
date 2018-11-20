@@ -1,0 +1,50 @@
+ul {
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.equipos {
+  display: flex;
+  justify-content: space-around;
+  margin-left: -85px;
+  margin-top: 100px;
+}
+
+.equipos ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.table {
+  margin-top: 100px;
+}
+
+.partidos {
+  margin-top: 100px;
+}
+
+.partido {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.puntuacion {
+  border: 2px solid black;
+  padding: 10px;
+  display: block;
+  width: 300px;
+  margin: 0 auto 50px;
+}
